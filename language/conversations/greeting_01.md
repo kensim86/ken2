@@ -1,16 +1,22 @@
 ---
 title: greeting_01
-timestamp: 2016-11-23T15:48:15.6546296+08:00
+timestamp: 2016-11-23T16:26:19.2579723+08:00
 ---
 
-Hello
+hello
 * greeting
 
-< Hello world. I mean human.
+< hi there! and welcome to bot world!
 * greeting
 
-Goodbye
+hi
+* greeting
+
+< welcome to bot world!
+* greeting
+
+bye
 * goodbye
 
-< See you later!
+< please come back again!
 * goodbye
