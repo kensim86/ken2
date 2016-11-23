@@ -7,7 +7,7 @@ Hi
 * greeting
 
 < Hello world, I mean human
-* welcome
+* greeting
 
 Goodbye
 * goodbye
