@@ -1,6 +1,6 @@
 ---
 title: greeting_01
-timestamp: 2016-11-23T15:00:32.5296047+08:00
+timestamp: 2016-11-23T15:02:04.3116439+08:00
 ---
 
 Hi
@@ -13,4 +13,4 @@ Goodbye
 * goodbye
 
 < See you later!
-* apology/untrained
+* goodbye
