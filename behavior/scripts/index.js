@@ -2,7 +2,6 @@
 
 exports.handle = function handle(client) {
   
-
   const handleGreeting = client.createStep({
     satisfied() {
       return false
@@ -33,6 +32,7 @@ exports.handle = function handle(client) {
     streams: {
       goodbye: handleGoodbye,
       greeting: handleGreeting
+     
     }
   })
 }
