@@ -7,11 +7,7 @@ exports.handle = function handle(client) {
     },
 
     prompt() {
-      client.addResponse('greeting')
-      client.addResponse('provide/documentation', {
-        documentation_link: 'http://docs.init.ai',
-      })
-      client.addResponse('provide/instructions')
+
       client.updateConversationState({
         helloSent: true
       })
