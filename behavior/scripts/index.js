@@ -7,7 +7,7 @@ exports.handle = function handle(client) {
     },
 
     prompt() {
-      client.addResponse('welcome')
+      client.addResponse('greeting')
       client.addResponse('provide/documentation', {
         documentation_link: 'http://docs.init.ai',
       })
@@ -26,7 +26,7 @@ exports.handle = function handle(client) {
 
     prompt() {
       client.addResponse('apology/untrained')
-     client.done()
+      client.done()
     }
   })
 
@@ -36,7 +36,7 @@ exports.handle = function handle(client) {
     },
 
     prompt() {
-      client.addTextResponse('Hello world, I mean human')
+      client.addResponse('greeting')
       client.done()
     }
   })
@@ -47,7 +47,7 @@ exports.handle = function handle(client) {
     },
 
     prompt() {
-      client.addTextResponse('See you later!')
+      client.addResponse('goodbye')
       client.done()
     }
   })
